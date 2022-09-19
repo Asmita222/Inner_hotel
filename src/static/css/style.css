@@ -1,0 +1,53 @@
+.form{
+    box-sizing: border-box !important;
+    border: 1px solid black !important;
+    width: 650px !important;
+    height: 650px !important;
+    margin-left:19rem !important;
+   margin-top: 2rem !important;
+}
+
+.form-box {
+    margin-top: 1rem !important;
+    text-align: left !important;
+  }
+  .name {
+    font-family: "Roboto" !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    line-height: 1em !important;
+    letter-spacing: 1px !important;
+    color: #000000 !important;
+    float: left !important;
+    margin-bottom: 20px;
+    margin-left: 1rem !important;
+  }
+  .detail-name-box {
+    background-color: #f9f9f9 !important;
+    border-width: 1px !important;
+    border-color: #bfbebe !important;
+    border-style: solid !important;
+    margin-bottom: 5px !important;
+    width: 95% !important;
+    font-family: "Roboto", sans-serif;
+    color: rgb(0 0 0) !important;
+    font-size: 10px !important;
+    font-weight: normal !important;
+    height: 40px;
+    border-radius: 5px !important;
+    margin-left: 1rem !important;
+  }
+  .submit {
+    margin-top: 1.2rem !important;
+    font-family: "Roboto" !important;
+    font-size: 10px !important;
+    font-weight: normal !important;
+    line-height: 1em !important;
+    letter-spacing: 1px !important;
+    box-sizing: border-box !important;
+    background-color: #004139 !important;
+    color: white !important;
+    cursor: pointer !important;
+    padding: 12px 35px 12px 35px !important;
+    font-weight: 600 !important;
+  }
