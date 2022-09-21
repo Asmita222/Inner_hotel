@@ -16,7 +16,7 @@ const InnerHotelPage = () => {
   useEffect(() => {
 const newFacilities = async () => {
     try {
-      const response = await axios.get(`http://895a-103-174-85-54.ngrok.io/hotels/emenities/`);
+      const response = await axios.get(`http://1d49-103-174-85-54.ngrok.io/hotels/emenities/`);
       setFacility(response.data);
     } catch (err) {
       console.log(err);
@@ -45,7 +45,7 @@ const newFacilities = async () => {
     formdata.append('emenities', AllFacility);  
     const Config = { Formconfig };
     await axios
-      .post(`http://895a-103-174-85-54.ngrok.io/hotels/hotel/`, formdata, Config)
+      .post(`http://1d49-103-174-85-54.ngrok.io/hotels/hotel/`, formdata, Config)
       .then((res) => {
      console.log(res.data);
       })

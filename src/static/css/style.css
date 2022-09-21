@@ -1,4 +1,4 @@
-.form{
+/* .form{
     box-sizing: border-box !important;
     border: 1px solid black !important;
     width: 650px !important;
@@ -50,4 +50,205 @@
     cursor: pointer !important;
     padding: 12px 35px 12px 35px !important;
     font-weight: 600 !important;
-  }
+  } */
+
+  /* sub_header css */
+    .header-box {
+      padding-top: 10px !important;
+      padding-bottom: 20px !important;
+      background-color: white !important;
+      width: 100% !important;
+    }
+    .subheader-list {
+      padding: 0px !important;
+      text-align: left !important;
+    }
+    .subheader-listitem{
+      padding: 0px !important;
+      width: auto !important;
+      display: inline !important;
+      font-family: "Source Sans Pro", serif !important;
+      font-size: 14px !important;
+      cursor: pointer !important;
+    }
+    .info {
+      padding-left: 25px !important;
+    }
+    .myaccount-text {
+      padding-left: 4px !important;
+      font-family: "Source Sans Pro", serif !important;
+      font-size: 14px !important;
+      text-align: right !important;
+    }
+    .user-icon {
+      padding-right: 10px !important;
+      font-size: 20px !important;
+      color: #7D0205 !important;
+      font-family: "Source Sans Pro", serif !important;
+    }
+    .subheader-link {
+      text-decoration: none !important;
+      color: black !important;
+      cursor: pointer !important;
+    }
+  /* main-header */
+.my-main-header {
+  height: 80px !important;
+  background-color: #7D0205 !important;
+  width: 100% !important;
+  position: sticky !important;
+}
+.hotel-logo {
+  width: 100% !important;
+  padding-left: 14px !important;
+  padding-top: 8px !important;
+  height: 3rem !important;
+}
+.main-header-ul {
+  text-align: left !important;
+  padding-left: 14rem !important;
+  margin-top: 8px !important;
+  width: 100% !important;
+}
+.main-header-display {
+  display: inline !important;
+}
+.main-header-text {
+  text-decoration: none !important;
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+  font-weight: normal !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  color: #d8d6d6 !important;
+}
+.main-header-text:hover {
+  color: white !important;
+  transition: 0.2s ease !important;
+  cursor: pointer !important ;
+}
+.booking {
+  text-align: right !important;
+  padding-left: 7px !important;
+  padding-top: 18px !important;
+}
+.book-btn {
+  color: rgb(151, 150, 150) !important;
+  background-color: white !important;
+  border-radius: 0px 0px 0px 0px !important;
+  font-family: "Roboto" !important;
+  font-size: 12px !important;
+  font-weight: normal !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  color: #a3a3a3 !important;
+}
+.book-link {
+  text-decoration: none !important;
+  color: #a3a3a3 !important ;
+}
+/* footer css */
+.footer-background {
+  background-color: #7D0205 !important;
+}
+.footer-padding {
+  padding: 8px !important;
+}
+.heading {
+  color: #ffffff !important;
+  font-family: "Gilda Display" !important;
+  font-size: 25px !important;
+  font-weight: bold !important;
+  line-height: 1.8em !important;
+  letter-spacing: 2px !important;
+  padding-top: 2rem !important;
+}
+.availability {
+  color: #c2c0c0 !important;
+  font-family: "Roboto" !important;
+  font-size: 12px !important;
+  font-weight: 300 !important;
+  line-height: 2em !important;
+  letter-spacing: 2px !important;
+  padding-bottom: 10px !important;
+}
+.phone-number {
+  color: #ffffff !important;
+  font-family: "Roboto" !important;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  padding-bottom: 10px !important;
+}
+.social-media-margin {
+  padding: 10px !important;
+  text-decoration: none !important;
+}
+.icons-design {
+  color: #ffffff !important;
+  font-size: 20px !important;
+  font-weight: 300 !important;
+}
+.copyright-margin {
+  padding: 1.5rem !important;
+}
+.copyright {
+  color: #c2c0c0 !important;
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+}
+/* Home page Css */
+.myhotelbg-image{
+  height: 400px !important;
+  width: 100% !important;
+}
+.cities{
+  height: 250px !important;
+  width: 100% !important;
+}
+.cities-box{
+  margin: 3rem !important;
+}
+.cities-txt{
+  color: black !important;
+  font-family: "Roboto" !important;
+  font-size: 30px !important;
+  font-weight: bold !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+}
+.city-container{
+  margin: 4rem !important;
+}
+.background-img{
+  position: relative !important;
+  text-align: center !important;
+}
+.search-box{
+  position: absolute !important;
+  bottom: 15rem !important;
+  left: 27rem !important;
+}
+.search-input{
+  height: 50px !important;
+  width: 280px !important;
+  padding: 10px  !important;
+  border: 1px solid white !important;
+}
+.search-button{
+  position: absolute !important;
+  background-color: #7D0205 !important;
+  padding: 18px 24px  !important;
+  color: #c2c0c0 !important;
+  font-family: "Roboto" !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 1em !important;
+  letter-spacing: 1px !important;
+  margin-left: 0px !important;
+ 
+}
