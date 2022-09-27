@@ -26,7 +26,7 @@ const FooterPage = () =>{
                           <Typography className='heading'>Follow Us</Typography>
                           <Typography className='availability'>SOCIAL MEDIA CHANNELS</Typography>
                           <Box className='icons'>
-                           <a href='' target='_blank' className='social-media-margin'><FontAwesomeIcon icon={faFacebookF} className="icons-design"/></a>
+                           <a href='https://www.facebook.com/profile.php?id=100083964946344' target='_blank' className='social-media-margin'><FontAwesomeIcon icon={faFacebookF} className="icons-design"/></a>
                            <a href='' target='_blank' className='social-media-margin'><FontAwesomeIcon icon={faTwitter} className="icons-design"/></a>
                            <a href='' target='_blank' className='social-media-margin'><FontAwesomeIcon icon={faInstagram} className="icons-design"/></a>
                            <a href='' target='_blank' className='social-media-margin'><FontAwesomeIcon icon={faLinkedinIn} className="icons-design"/></a>
